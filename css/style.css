@@ -87,7 +87,7 @@ footer hr{
 .debug div{
     border:1px dashed black;
 }
-.debug .my-row>div{
+.debug nav .my-row>div{
     background-color: cadetblue;
     
     
