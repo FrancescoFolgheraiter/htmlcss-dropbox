@@ -64,6 +64,14 @@ header nav ul li{
     MAIN
 */
 
+main .designt .my-row .my-col-1-3{
+    height:calc(100vw / 3);
+}
+
+main .designt .my-row .my-col-1-3:first-of-type , main .designt .my-row .my-col-1-3:last-of-type {
+    display:flex;
+    flex-wrap: wrap;
+}
 /*
     FOOTER
 */
@@ -132,6 +140,10 @@ footer hr{
 .debug main .designt{
     background-color: lightsalmon;
     min-height: 600px;
+}
+
+.debug main .designt .my-row .my-col-1-3{
+    background-color: lightgrey;
 }
 
 .debug main .faq{
