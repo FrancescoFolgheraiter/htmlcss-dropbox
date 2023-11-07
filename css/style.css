@@ -92,4 +92,25 @@ header nav ul li{
     background-color: lightcoral;
     min-height:100px;
 }
+.debug section{
+    border:1px dashed blueviolet;
+}
+.debug main .price-plans{
+    background-color: lightblue;
+    min-height: 1200px;
+}
 
+.debug main .info{
+    background-color: lightgreen;
+    min-height: 1200px;
+}
+
+.debug main .designt{
+    background-color: lightsalmon;
+    min-height: 600px;
+}
+
+.debug main .faq{
+    background-color: lightslategray;
+    min-height: 800px;
+}
