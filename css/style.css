@@ -8,6 +8,7 @@
     box-sizing: border-box;
 }
 
+
 /*
     GENERAL
 */
@@ -17,8 +18,12 @@ html{
     font-size: 10px;
 }
 
-.container{
+.big-container{
     width: 1200px;
+    margin: 0 auto;
+}
+.small-container{
+    width: 900px;
     margin: 0 auto;
 }
 
@@ -36,6 +41,12 @@ html{
 }
 .row-align-center{
     align-items: center;
+}
+.col-all-content{
+width:100%;
+}
+.my-col-1-2{
+    width:50%;
 }
 
 /*
@@ -63,10 +74,22 @@ header nav ul li{
 }
 
 .debug div{
-    border:1px dashed red;
+    border:1px dashed black;
 }
 .debug .my-row>div{
     background-color: cadetblue;
     
     
 }
+
+.debug main .header-main{
+    min-height: 500px;
+    background-color: darkkhaki;
+    padding:50px;
+}
+
+.debug main .header-main .jumbotron>*{
+    background-color: lightcoral;
+    min-height:100px;
+}
+
