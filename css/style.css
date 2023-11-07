@@ -48,6 +48,9 @@ width:100%;
 .my-col-1-2{
     width:50%;
 }
+.my-col-1-3{
+    width:calc(100% / 3);
+}
 
 /*
     HEADER
@@ -106,6 +109,19 @@ footer hr{
 .debug main .price-plans{
     background-color: lightblue;
     min-height: 1200px;
+}
+.debug main .price-plans>*{
+    min-height:50px;
+}
+
+.debug main .price-plans .my-row:nth-child(3)>*{
+    background-color: lightgreen;
+    min-height:150px;    
+}
+
+.debug main .price-plans .my-row:nth-child(4)>*{
+    background-color: darkkhaki;
+    min-height:150px;    
 }
 
 .debug main .info{
