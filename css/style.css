@@ -21,3 +21,52 @@ html{
     width: 1200px;
     margin: 0 auto;
 }
+
+.my-row{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*
+    utility
+*/
+.row-spaced{
+    justify-content: space-between;
+}
+.row-align-center{
+    align-items: center;
+}
+
+/*
+    HEADER
+*/
+
+header nav ul li{
+    display:inline-block;
+}
+
+/*
+    MAIN
+*/
+
+/*
+    FOOTER
+*/
+
+/*
+    DEBUG
+*/
+.debug nav{
+    background-color: aqua;
+    min-height: 50px;
+}
+
+.debug div{
+    border:1px dashed red;
+}
+.debug .my-row>div{
+    background-color: cadetblue;
+    
+    
+}
