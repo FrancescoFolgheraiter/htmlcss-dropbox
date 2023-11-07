@@ -21,11 +21,11 @@ html{
 }
 
 .big-container{
-    width: 1200px;
+    width: 1000px;
     margin: 0 auto;
 }
 .small-container{
-    width: 900px;
+    width: 800px;
     margin: 0 auto;
 }
 
@@ -136,7 +136,7 @@ main .header-main .jumbotron .my-col-1-2 .container-arrow-down{
 
 main .header-main .jumbotron .my-col-1-2 .img-content{
     position:absolute;
-    top:0;
+    top:50px;
     left:0;
     z-index: 0;
 }
@@ -173,7 +173,7 @@ footer hr{
     background-color: aqua;
 }
 */
-/*
+
 .debug div{
     border:1px dashed black;
 }
