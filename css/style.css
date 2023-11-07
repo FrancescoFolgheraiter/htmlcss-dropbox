@@ -58,7 +58,11 @@ width:100%;
 /*
     HEADER
 */
+header nav{
+    position: fixed;
+    min-height: 50px;
 
+}
 header nav ul li{
     display:inline-block;
 }
@@ -66,7 +70,9 @@ header nav ul li{
 /*
     MAIN
 */
-
+main{
+    padding-top: 100px;
+}
 main .designt .my-row .my-col-1-3{
     height:calc(100vw / 3);
 }
@@ -96,7 +102,6 @@ footer hr{
 */
 .debug nav{
     background-color: aqua;
-    min-height: 50px;
 }
 
 .debug div{
