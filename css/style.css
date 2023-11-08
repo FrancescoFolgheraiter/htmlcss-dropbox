@@ -40,6 +40,11 @@ html{
     color:white;
     padding:3px 20px;
 }
+.special-button{
+    background-color: #fff;
+    color:black;
+    border:1px solid black;
+}
 h1{
     font-size: 5em;
     margin:20px 0;   
@@ -80,6 +85,10 @@ h2{
 
 .my-col-30{
     width:30% ;
+}
+
+.my-col-60{
+    width:60% ;
 }
 .my-col-1-5{
     width: calc(100% / 5);
@@ -220,7 +229,7 @@ footer hr{
     background-color: aqua;
 }
 */
-/*
+
 .debug div{
     border:1px dashed black;
 }
@@ -262,11 +271,12 @@ footer hr{
     min-height:150px;    
 }
 */
+/*
 .debug main .price-plans .my-row:nth-child(4)>*{
     background-color: darkkhaki;
     min-height:150px;    
 }
-
+*/
 .debug main .info{
     background-color: lightgreen;
     min-height: 1200px;
