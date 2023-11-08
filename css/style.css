@@ -39,6 +39,7 @@ html{
     background-color: #0061ff;
     color:white;
     padding:3px 20px;
+    margin:20px 0;
 }
 .special-button{
     background-color: #fff;
@@ -52,6 +53,15 @@ h1{
 h2{
     font-size: 3em;
     margin:20px 0;   
+}
+
+h3{
+    font-size: 2em;
+    margin:20px 0;   
+}
+p{
+    font-size: 1.4em;
+    margin:10px 0;
 }
 .radio-blue{
     height: 14px;
@@ -175,7 +185,6 @@ main .price-plans .card-top{
 }
 main .price-plans .card-bottom > *{
     margin:10px 0px;
-    font-size: 1.4em;
     padding-left: 10px;
 }
 
@@ -186,6 +195,7 @@ main .price-plans .card-bottom ul{
     list-style: none;
 }
 main .price-plans .card-bottom ul li{
+    font-size: 1.4em;
     margin-bottom: 10px;
     padding-left: 1em;
     text-indent: -1em;
@@ -204,6 +214,8 @@ main .designt .my-row .my-col-1-3{
 main .designt .my-row .my-col-1-3:first-of-type , main .designt .my-row .my-col-1-3:last-of-type {
     display:flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 /*
     FOOTER
@@ -251,6 +263,7 @@ footer hr{
     min-height:100px;
 }
 */
+/*
 .debug section{
     border:1px dashed blueviolet;
 }
