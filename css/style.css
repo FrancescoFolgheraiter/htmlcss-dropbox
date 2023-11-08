@@ -277,28 +277,31 @@ footer hr{
     min-height:150px;    
 }
 */
+/*
 .debug main .info{
     background-color: lightgreen;
     min-height: 1200px;
 }
-
+*/
+/*
 .debug main .designt{
     background-color: lightsalmon;
     min-height: 600px;
 }
-
+*/
 .debug main .designt .my-row .my-col-1-3{
     background-color: lightgrey;
 }
-
+/*
 .debug main .faq{
     background-color: lightslategray;
     min-height: 800px;
 }
-
+*/
 .debug footer{
     min-height: 500px;
 }
+/*
 .debug footer .footer-top{
     background-color: lightblue;
     min-height: 300px;
@@ -307,3 +310,4 @@ footer hr{
     background-color: lightsalmon;
     min-height: 100px;
 }
+*/
