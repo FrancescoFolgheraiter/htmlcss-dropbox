@@ -169,6 +169,9 @@ main .header-main .jumbotron .my-col-30 .container-arrow-down{
     left:0;
     z-index: 0;
 }
+main .header-main .jumbotron .my-col-30 .container-arrow-down a{
+    color:black;
+}
 
 /*price plans section*/
 main .container-radio{
@@ -301,6 +304,19 @@ main .small-container .my-row .my-col-60 h2{
 main .faq{
     margin-bottom: 100px;
 }
+main .faq>div{
+    border-top:1px solid grey;
+    padding:30px 0;
+    font-size:1.3em;
+    font-weight: 800;
+}
+main .faq>div:last-of-type{
+    border-bottom:1px solid grey;
+}
+main .faq>div>*:first-child{
+    flex-grow: 1;
+}
+
 /*
     FOOTER
 */
