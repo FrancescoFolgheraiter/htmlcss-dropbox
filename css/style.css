@@ -130,11 +130,13 @@ header nav ul {
     display:flex;
     flex-wrap: wrap;
     align-items: center;
+    font-size: 1.2em;
 
 }
 header nav ul li{
     list-style-type: none;
     margin:5px 10px;
+    position:relative;
 }
 
 header a{
@@ -143,6 +145,14 @@ header a{
     font-size: 1.2em;
 }
 
+header nav ul li .nav-first-level:hover + .not-visible{
+    display:block;
+    position:absolute;
+    padding:10px 10px;
+    top:100%;
+    left:0;
+    background-color:#fff;
+}
 
 /*
     MAIN
