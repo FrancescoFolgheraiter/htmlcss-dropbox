@@ -193,9 +193,19 @@ main .price-plans .card-top{
     border-bottom: 1px solid #d0d0d3; 
 }
 main .price-plans .card-bottom > *{
-    margin:10px 0px;
-    padding-left: 10px;
+    margin:20px 0px;
+    padding:0 10px;
 }
+
+main .price-plans .card-bottom > .my-row{
+    flex-wrap: nowrap;
+    font-size: 1.4em;
+    margin-bottom:20px;
+}
+main .price-plans .card-bottom > .my-row>*:first-child{
+    padding-right:5px;
+}
+
 
 main .price-plans .my-col-30 .card-bottom div:first-of-type{
     text-align: center;
